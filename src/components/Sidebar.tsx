@@ -1,4 +1,4 @@
-import { Home, User, FolderCode, Zap, Map, Briefcase, Sun, Moon } from "lucide-react";
+import { Home, User, FolderCode, Zap, Map, Briefcase, Mail, Sun, Moon } from "lucide-react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -11,6 +11,7 @@ const navItems = [
   { path: "/skills", icon: Zap, label: "Skills" },
   { path: "/journey", icon: Map, label: "Journey" },
   { path: "/business", icon: Briefcase, label: "Business" },
+  { path: "/contact", icon: Mail, label: "Contact" },
 ];
 
 const Sidebar = () => {

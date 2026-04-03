@@ -11,6 +11,7 @@ import ProjectsPage from "@/pages/ProjectsPage";
 import SkillsPage from "@/pages/SkillsPage";
 import JourneyPage from "@/pages/JourneyPage";
 import BusinessPage from "@/pages/BusinessPage";
+import ContactPage from "@/pages/ContactPage";
 import NotFound from "@/pages/NotFound";
 
 const AnimatedRoutes = () => {
@@ -24,6 +25,7 @@ const AnimatedRoutes = () => {
         <Route path="/skills" element={<SkillsPage />} />
         <Route path="/journey" element={<JourneyPage />} />
         <Route path="/business" element={<BusinessPage />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </AnimatePresence>
